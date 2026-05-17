@@ -1,1 +1,60 @@
-/* Write your CSS here */
+.match-card {
+  background-color: #ffffff;
+  width: 300px;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.match-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.competing-team-logo {
+  height: 80px;
+  width: 80px;
+  margin-bottom: 15px;
+}
+
+.competing-team {
+  color: #1e293b;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+
+.result {
+  color: #64748b;
+  font-size: 14px;
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+
+.match-status {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 6px 16px;
+  border-radius: 20px;
+  margin: 0;
+}
+
+.match-won {
+  background-color: #10b981;
+}
+
+.match-lost {
+  background-color: #ef4444;
+}
+
+.match-draw {
+  background-color: #f59e0b;
+}
